@@ -1,0 +1,22 @@
+h3{
+    margin: 0 ; 
+    padding:  0 ;
+}
+
+.user__main__heading{
+    background-color: rgb(10, 10, 36) ; 
+    /* background : rgb(20 83 45); */
+    /* background : rgb(30 58 138) ;  */
+    color : #fff ; 
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px ;
+    padding: 15px 10px ;
+    border-radius: 3px ;
+    transition: all 0.3s linear;
+    margin-bottom: 25px ;
+}
+
+.user__main__heading:hover{
+    letter-spacing: 2px ;
+}

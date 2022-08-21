@@ -1,0 +1,25 @@
+.single__user {
+  color: white;
+  /* background: darkblue; */
+  /* background: rgb(1, 43, 1); */
+  background: rgb(249 115 22);
+  cursor: pointer;
+  padding : 10px 30px ; 
+  margin  : 5px 0  ; 
+  border-radius: 2px ;
+  display: flex ;
+  align-items: center;
+}
+
+.single__image {
+  margin-right: 8px ;
+  width: 40px ;
+  transition: all 0.3s ;
+}
+.single__image img{
+  border-radius: 50%;
+}
+.single__user:hover .single__image{
+  margin-right: 12px;
+}
+
